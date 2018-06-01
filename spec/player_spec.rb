@@ -17,7 +17,7 @@ describe Player do
         #exercise
         player1.attack(player2)
         #verfication
-        expect(player2.hit_points).to be(50)
+        expect(player2.hit_points).to eq(50)
       end
     end
 
